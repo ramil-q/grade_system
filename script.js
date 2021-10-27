@@ -37,6 +37,7 @@ $('.btnmain').on('click', () => {
         averageValue:''
      });
     first();
+    $('#name').val('')
 })
 $(document).on('click', '.imtahan', (event) => {
     event.preventDefault();
@@ -77,7 +78,7 @@ $('.btnpopup').on('click', () => {
     <td>${qiymetler[i].inpqiymet}</td>
 </tr>`)
     }
-
+    $('#qiymet').val('');
 })
 
 $('.btnclose').on('click', () => {
@@ -92,11 +93,9 @@ $('.btnclose').on('click', () => {
     }
     console.log(averageValue);
     
-    for(let i = 0;i<siyahi.length;i++){
-        siyahi[i].maxValue = maxValue;
-        siyahi[i].minValue = minValue;
-        siyahi[i].averageValue = averageValue;
-    }
+        siyahi[siyahi.length-1].maxValue = maxValue;
+        siyahi[siyahi.length-1].minValue = minValue;
+        siyahi[siyahi.length-1].averageValue = averageValue;
 
     first();
     $('.valuespopup').empty();

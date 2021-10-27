@@ -16,11 +16,14 @@
 }
 
 
-th, td{
+th{
     border: 1px solid black;
     padding: 1em 3em;
 }
 
+td{
+    padding: 1em 3em;
+}
 .button{
     display: flex;
     flex-direction: row;
