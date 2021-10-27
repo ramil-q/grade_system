@@ -7,31 +7,6 @@ $('#name').on('blur', function () {
     $('.inp').css('background-color', '#fff');
 })
 
-// function addRow() {
-//     var table = document.getElementById('thead');
-//     var rowCount = table.rows.length;
-//     var row = table.insertRow(rowCount);
-//     var colCount = table.rows[0].cells.length;
-//     var cell1 = row.insertCell(0);
-
-
-// cell1.innerHTML = rowCount;
-// for (var i = 0; i < colCount-1; i++) {
-//   var newcell = row.insertCell(i + 1);
-// //   newcell.innerHTML = table.rows[1].cells[i + 1].innerHTML;
-
-// }
-
-// }
-// $('.btn').on('click', ()=>{
-//     var table = document.getElementById('thead');
-//     siyahi.push($('#name').val());
-//     addRow()
-//  for(let i=0;i<siyahi.length;i++){
-//     table.row[i+1].cells[i+1].innerHTML='salam'
-//  }
-
-// })
 
 
 
@@ -126,5 +101,6 @@ $('.btnclose').on('click', () => {
     first();
     $('.valuespopup').empty();
     qiymetler=[];
+    grades=[];
     console.log(siyahi)
 })
