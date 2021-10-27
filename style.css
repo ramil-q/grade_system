@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.inp{
+    padding: 10px 3px;
+    
+}
+
+.btn{
+    float: right;
+    margin-top: 20px;
+    /* margin-bottom: 100px !important; */
+}
+.tp{
+    margin-top: 50px;
+}
+
+
+th, td{
+    border: 1px solid black;
+    padding: 1em 3em;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cedvel{
+    margin-top: 50px;
+}
+
+
+.cnt{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 50px;
+    flex-grow: 2;
+}
+.cnt>div{
+    /* border: 1px solid black; */
+    padding: 1em;
+    margin-left: 60px;
+}
+
+.cntnew{
+    display: flex;
+    
+}
+
+.cntnew>div{
+    border: 1px solid black;
+
+    padding: 1em;
+    margin-left: 65px;
+    text-align: center;
+}
+
+.popup{
+    width: 1000px;
+    height: 600px;
+    background-color: #fff;
+    /* background-color: red; */
+    /* opacity: 0.1; */
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    display: none;
+    padding: 1em;
+    /* overflow: hidden; */
+}
+.selectdiv{
+    /* display: flex; */
+    padding: 1em;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#select{
+    width:200px;
+    height: 50px;
+}
+
+.inselectdiv2>input{
+    height: 50px;
+}
+
+.tablepop{
+    margin-top: 80px;
+}
+.tablepop>table{
+    width: 900px;
+}
+
+.popclose{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="popup">
+
+        <div class="selectdiv">
+            <div class="inselectdiv1">
+
+                <label for="select" style="display: block;">Imtahan adi</label>
+                <select name="" id="select">
+                    <option value="">Riyyaziyat</option>
+                    <option value="">Fizika</option>
+                    <option value="">Kimya</option>
+                </select>
+            </div>
+
+            <div class='inselectdiv2'>
+                <label for="qiymet" style="display: block;">Qiymet</label>
+                <input type="text" id="qiymet">
+            </div>
+            <div class="inselectdiv3">
+                <button class="btn btn-primary btnpopup">Əlave et</button>
+            </div>
+        </div>
+        <div class="container tablepop">
+            <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Imtahan</th>
+                    <th>Qiymet</th>
+                </tr>
+            </thead>
+            <tbody class="valuespopup">
+               
+            </tbody>
+        </table>
+        </div>
+        <div class="popclose container">
+            <div></div>
+            <button class="btn btn-primary btnclose">Bagla</button>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="text-center tp">
+            <p>Tələbə siyahisi</p>
+        </div>
+        <div class="inp">
+            <label for="name">Tələbənin tam adi</label>
+            <input type="text" id="name" class="form-control">
+        </div>
+        <div class="button">
+            <div></div>
+            <button class="btn btn-primary btnmain">Əlave et</button>
+        </div>
+        <div class="cedvel container">
+            <hr>
+            <table>
+                <thead class="thead" id="thead">
+                    <tr>
+                        <th>ID</th>
+                        <th>Telebe adi</th>
+                        <th>Imtahan</th>
+                        <th>Minimum qiymet</th>
+                        <th>Maksimum qiymet</th>
+                        <th>Ortalama</th>
+                    </tr>
+                <tbody class="values">
+
+                </tbody>
+
+                </thead>
+            </table>
+        </div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
